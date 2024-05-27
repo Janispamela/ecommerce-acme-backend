@@ -1,8 +1,8 @@
-@api = http://localhost:4000/products
-# @api = https://ecommerce-acme-backend.onrender.com
+#@api = http://localhost:4000
+@api = http://ecommerce-acme-backend.onrender.com
 
 ### get Products
-GET {{api}}
+GET {{api}}/products/
 
 ### get Product by id
-GET {{api}}/664001ecf4ce697eef1c45d6
+GET {{api}}/products/664007e9f4ce697eef1c45d9
