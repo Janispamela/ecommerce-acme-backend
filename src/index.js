@@ -16,6 +16,8 @@ app.get("/", (req, res) => {
     });
   });
 
+  app.use("/users", require("./routes/users.routes"));
+  app.use("/auth", require("./routes/auth.routes"));
   app.use("/products", require("./routes/products.routes"));
 
   app.listen(process.env.PORT, () => {

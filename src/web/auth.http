@@ -1,0 +1,21 @@
+### INICIAR SESION
+POST http://localhost:4000/auth/iniciar_sesion
+Content-Type: application/json
+
+{
+    "user_name": "MARGARITA",
+    "password": "123456"
+}
+
+### REGISTRAR USUARIO
+POST http://localhost:4000/auth/registrar_usuario
+Content-Type: application/json
+
+{
+    "user_name": "MARGARITA7",
+    "password": "123456"
+}
+
+### Renovar token
+GET http://localhost:4000/auth/validar_usuario
+x-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZDBmYTM5MDAzNDRlNTFiMDA2ZjUxNiIsImlhdCI6MTcxMDAwOTc1NSwiZXhwIjoxNzEwMDA5NzY1fQ.nVeClQdJACYYXzUSVVOsIY4xWaW-s8mjoK4VrhqCZ5c
