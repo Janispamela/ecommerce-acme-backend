@@ -13,6 +13,7 @@ app.get("/", (req, res) => {
     return res.json({
       ok: true,
       msg: "Welcome to API ACME",
+      author: "Janis",
     });
   });
 

@@ -9,27 +9,27 @@ const UserSchema = Schema({
 
   name: {
     type: String,
-    required: [true, "El nombre es obligatorio"],
+   // required: [true, "El nombre es obligatorio"],
 },
 
   lastname: {
     type: String,
-    required: [true, "El apellido es obligatorio"],
+   // required: [true, "El apellido es obligatorio"],
 },
 
   password: {
     type: String,
-    required: [true, "La contraseña es obligatoria"],
+  //  required: [true, "La contraseña es obligatoria"],
   },
 
   email: {
     type: String,
-    required: [true, "El correo es obligatorio"],
+  //  required: [true, "El correo es obligatorio"],
   },
 
   age: {
     type: String,
-    required: [true, "La edad es obligatorio"],
+  //  required: [true, "La edad es obligatorio"],
   },
 
   image: {
