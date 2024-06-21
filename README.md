@@ -27,7 +27,7 @@ Alternatively, you can register on the website to purchase products.
 - Utilization of React Context API
 - Implemented routes:
   - Home page
-  - Checkout process
+  - Checkout process I(PayPal Sandbox)
   - User registration
   - User login
   - User profile
