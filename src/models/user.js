@@ -35,7 +35,7 @@ const UserSchema = Schema({
   image: {
     type: String,
     default:
-      "https://as1.ftcdn.net/v2/jpg/03/46/83/96/1000_F_346839683_6nAPzbhpSkIpb8pmAwufkC7c5eD7wYws.jpg",
+      "https://i.pinimg.com/474x/d4/cf/bc/d4cfbcc444225a326ad0c48a3de42f7a.jpg",
   },
 
 });
